@@ -1,0 +1,82 @@
+{
+  "create": {
+    "fields": {
+      "content": {
+        "description": "The text of the file is in Markdown format",
+        "name": "The text of the file",
+        "required": {
+          "max": "Must contain up to {max} characters",
+          "min": "Must contain from {min} characters",
+          "req": "It is necessary to specify"
+        },
+        "tabs": {
+          "editor": "Editor",
+          "preview": "Preview"
+        }
+      },
+      "isPrivate": {
+        "description": "If enabled, only those who have the link will be able to access it",
+        "name": "Make private"
+      },
+      "title": {
+        "description": "This is the name of the file that will be displayed",
+        "name": "The name of the file",
+        "required": {
+          "max": "Must contain up to {max} characters",
+          "min": "Must contain from {min} characters",
+          "req": "It is necessary to specify"
+        }
+      }
+    },
+    "submit": "Create"
+  },
+  "header": {
+    "login": "Login",
+    "menu": {
+      "all_acticles": "My files",
+      "create": "Create guest",
+      "logout": "Log out",
+      "profile": "Profile",
+      "title": "My profile"
+    }
+  },
+  "notes": {
+    "list": {
+      "error": ""
+    },
+    "view": {
+      "foundedCount": "Found {count} guests",
+      "sortBy": {
+        "date": "By date",
+        "id": "ID",
+        "view": "Views"
+      },
+      "sortOrder": {
+        "asc": "First",
+        "desc": "From the end"
+      }
+    }
+  },
+  "phrase": "A board for your texts",
+  "profile": {
+    "my_profile": "Your profile"
+  },
+  "success": {
+    "login": "Login successful. \nRedirection",
+    "redirect_button": "Go to"
+  },
+  "test": "Test translate",
+  "toast": {
+    "copy": {
+      "isNotSupported": ""
+    },
+    "logout": "You are logged out",
+    "logout_error": "An error occurred while logging out",
+    "must_logined": "Sign in to go to this page",
+    "refresh_token_error": "An error occurred while resuming the session",
+    "unknown_error": "An unknown error has occurred"
+  },
+  "update": {
+    "submit": "Update"
+  }
+}
